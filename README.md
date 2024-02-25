@@ -1,7 +1,7 @@
 ## Simple file system library
 
 ### Steps to setup
-- Note: Node need to be installed prior to run the below commands.
+- Note: Node needs to be installed in the system prior to running the below commands.
 
 - git clone https://github.com/joseph0007/filesystem.git
 - cd filesystem
