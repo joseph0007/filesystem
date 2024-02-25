@@ -1,6 +1,12 @@
 ## Simple file system library
 
 ### Steps to setup
+- Note: Node need to be installed prior to run the below commands.
+
+- git clone https://github.com/joseph0007/filesystem.git
+- cd filesystem
+- npm i
+- npm start
 
 ### API End points
 
