@@ -99,10 +99,17 @@ exports.handleListFiles = async (request, response) => {
         });
       }
 
+      const filesResult = [];
+      for( let i = 0; i < files.length; i++ ) {
+        if( files[i] !== ".gitkeep" ) {
+          filesResult.push(files[i]);
+        }
+      }
+
       resolve({
         statusCode: 200,
         status: true,
-        message: files,
+        message: filesResult,
         error: ''
       });
     });
